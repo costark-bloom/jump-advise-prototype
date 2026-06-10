@@ -13,7 +13,7 @@ Open [http://localhost:5173](http://localhost:5173)
 
 ## Live Demo
 
-**https://cole881.github.io/jump-advise-prototype/**
+**https://costark-bloom.github.io/jump-advise-prototype/**
 
 Share this link for click-through access — no install or login required.
 
