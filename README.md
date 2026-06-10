@@ -15,7 +15,18 @@ Open [http://localhost:5173](http://localhost:5173)
 
 **https://cole881.github.io/jump-advise-prototype/**
 
-Share this link for click-through access — no install required.
+Share this link for click-through access — no install or login required.
+
+### For the interviewer
+- Start at the home page and pick **Advisor Flow** or **Client Flow**
+- Use the header toggle to switch between advisor and client views
+- On the client dashboard, try the **Financial Progress** tab
+- Complete a task to see metrics update dynamically
+
+### Redeploy after changes
+```bash
+npm run deploy
+```
 
 ## Demo Flow
 
