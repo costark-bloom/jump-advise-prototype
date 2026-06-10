@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  /* Jump brand */
+  --color-jump-green: #00c875;
+  --color-jump-green-hover: #00b368;
+  --color-jump-green-light: #e6faf1;
+
+  /* Nav & accents */
+  --color-jump-nav-active: #e8f0fe;
+  --color-jump-blue: #4a7fd7;
+  --color-jump-blue-light: #dbeafe;
+
+  /* Neutrals */
+  --color-jump-text: #1a1a1a;
+  --color-jump-body: #4a4a4a;
+  --color-jump-muted: #8e8e8e;
+  --color-jump-border: #e8e8e8;
+  --color-jump-surface: #f7f7f7;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-jump-text antialiased;
+    font-family: var(--font-sans);
+  }
+
+  input,
+  textarea,
+  select {
+    @apply outline-none focus:ring-2 focus:ring-jump-nav-active focus:border-jump-border;
+  }
+}
